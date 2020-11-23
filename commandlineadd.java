@@ -1,13 +1,11 @@
-public class commandlineadd {
-    public static void main(String args[]) {
-        int sum = 0;
-        for(int i=0;i<args.length;i++)
-
-        {
-                    sum=sum + Integer.parseInt(args[i]);
-            
-        }
-         System.out.println("The result is:"+sum);
-    }
+public class ReadNumberExample3  
+{  
+public static void main(String args[])  
+{  
+int a,b,sum;  
+a=Integer.parseInt(args[0]);   //first input number   
+b=Integer.parseInt(args[1]);  //second input number  
+sum=a+b; //adding two numbers  
+System.out.println("The sum of " + a + " and " + b +" is " +sum);  
+}  
 }
-    
