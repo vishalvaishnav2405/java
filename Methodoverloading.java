@@ -10,7 +10,7 @@ public class Methodoverloading
   }
   public static void main (String[] args)
   {
-    Calculate  cal = new Calculate();
+    Methodoverloading cal = new Methodoverloading();
     cal.sum (8,5);      //sum(int a, int b) is method is called.
     cal.sum (4.6f, 3.8f); //sum(float a, float b) is called.
   }
